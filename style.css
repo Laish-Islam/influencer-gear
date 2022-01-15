@@ -340,6 +340,30 @@ body {
       display: grid;
       justify-content: center;
     }
+    .bonuse-flex {
+        
+        display: inherit;
+        text-align: center;
+      }
+      .up-bg {
+        background-repeat: no-repeat;
+      }
+      .bonuse-right {
+        
+        display: none;
+      }
+      .bonuse {
+        margin-bottom: 50px;
+        background-color: #92ccfe;
+        padding-bottom: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+      .bonuse-left ul{
+        
+            padding-left: -20px;
+            margin-left: -38px;
+      }
   }
   
   /* for tablet device media query */
@@ -380,7 +404,15 @@ body {
 
       
     }
-  }
+    .bonuse {
+        
+        padding-bottom: 40px;
+      }
+      .bonuse-img {
+        width: 70%;
+        padding-top: 39%;
+      }
+    }
 
   /* Border gradint */
   .border-gradint {
